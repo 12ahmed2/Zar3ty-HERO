@@ -1,0 +1,198 @@
+{
+"checkout": {
+  "success": {
+    "page_title": "Order Success - Zar3ty",
+    "title": "Order Placed Successfully!",
+    "order_id": "Order #",
+    "thank_you": "Thank you for your order. You can track your order status in your profile.",
+    "view_orders": "View My Orders",
+    "continue_shopping": "Continue Shopping"
+  },
+  "title": "Secure Checkout",
+  "fullname": "Full Name",
+  "email": "Email",
+  "phone": "Phone",
+  "phonePlaceholder": "Enter your phone number",
+  "address": "Shipping Address",
+  "addressPlaceholder": "Enter your full address",
+  "city": "City",
+  "cityPlaceholder": "Enter your city",
+  "notes": "Order Notes (Optional)",
+  "notesPlaceholder": "Any special instructions?",
+  "your_cart": "Your Cart",
+  "total": "Total",
+  "place_order": "Place Order",
+  "processing": "Processing...",
+  "order_success": "Order placed successfully!",
+  "order_failed": "Failed to place order",
+  "empty_cart": "Your cart is empty",
+  "required": "This field is required",
+  "invalid_email": "Please enter a valid email",
+  "invalid_phone": "Please enter a valid phone number"
+},
+  "profile": {
+    "followers": "Followers",
+    "following": "Following",
+    "follow": "Follow",
+    "unfollow": "Unfollow",
+    "robot": {
+    "url_placeholder": "Enter Camera URL (e.g., https://...)",
+    "show_camera": "Show Camera",
+    "fullscreen": "Fullscreen"
+  }
+  },
+  "feed": {
+    "loading": "Loading...",
+    "emptyPosts": "No posts yet. Be the first! 🌱",
+    "emptyArticles": "No articles yet.",
+    "writeArticle": "Write an Article",
+    "createPost": "Create Post",
+    "publish": "Publish",
+    "cancel": "Cancel",
+    "delete": "Delete",
+    "reply": "Reply",
+    "send": "Send",
+    "comments": "Comments",
+    "writeComment": "Write a comment...",
+    "titlePlaceholder": "Give your article a catchy title...",
+    "contentPlaceholder": "Write your thoughts here...",
+    "postPlaceholder": "What's on your mind?",
+    "published": "Published",
+    "by": "By"
+  },
+  "navbar": {
+    "agritourism":"Agritourism",
+    "aboutUs": "About Us",
+    "title": "Zar3ty",
+    "home": "Home",
+    "products": "Products",
+    "courses": "Courses",
+    "cart": "Cart",
+    "bot": "Smart Assistant",
+    "login": "Log in",
+    "signup": "Sign up",
+    "logout": "Log out"
+  },
+    "products": {
+    "add": "add to cart",
+    "soldOut": "Sold Out"
+  },
+  "index": {
+    "searchPlaceholder":"Search Products",
+    "aboutUsTitle": "About Us",
+    "aboutUsContent": "At Zar3ty, we aim to empower farmers and gardening enthusiasts to manage their farms efficiently and effortlessly. We provide smart solutions that help you track your production and improve crop quality through technology and innovation. Our vision is to build a sustainable digital agricultural community where everyone can manage their farm with confidence and effectiveness, achieving the best results in a smart and safe way. At Zar3ty, we believe that modern agriculture is the key to a more sustainable and prosperous future for all.",
+    "manager": "Manager of your farm",
+    "welcomeMessage": "Welcome to Zar3ty",
+    "productsTitle": "Products",
+    "stock": "Stock",
+    "price": "Price", 
+    "cart": {
+      "yourCart": "Your cart",
+      "closeCart": "Close cart",
+      "total": "Total",
+      "checkout": "Checkout"
+    },
+    "toast": {
+      "addedToCart": "Added to cart",
+      "removedFromCart": "Removed from cart"
+    }
+  },
+  "courses": {
+    "must_enroll": "You must enroll to access the course content.",
+    "has": "This course has",
+    "must_log_in": "You must log in to access this course.",
+    "header": "Our Courses",
+    "download_certificate": "Download Certificate",
+    "enroll": "Enroll in Course",
+    "unenroll": "Unenroll from Course",
+    "noCourses": "No courses available.",
+    "modules": "Modules",
+    "module_quiz": "Module Quiz",
+    "quiz_desc": "Test your knowledge to unlock the certificate.",
+    "start_quiz": "Start Quiz",
+    "retry_quiz": "Retry Quiz",
+    "question_progress": "Question",
+    "submit": "Submit",
+    "next": "Next",
+    "quiz_passed": "Quiz Passed",
+    "quiz_passed_title": "Passed!",
+    "quiz_failed_title": "Failed",
+    "your_score": "Your Score:",
+    "module_completed": "Module completed.",
+    "quiz_min_score": "You need at least 70% to pass.",
+    "retry_optional": "Retry (Optional)",
+    "try_again": "Try Again",
+    "markWatched": "Mark as Watched"
+  },
+  "bot": {
+    "title": "Smart Assistant"
+  },"article": {
+    "title": "🌱✨ Agricultural Tourism",
+    "intro": "A modern type of tourism focused on agricultural and rural activities, combining recreation, education, and hands-on experiences on farms or in rural areas. Agricultural tourism supports local economies, creates jobs, connects visitors with nature, and promotes environmental and social awareness.",
+    "features_heading": "✨ Key features of agricultural tourism:",
+    "features": {
+      "f1": "Farm visits: Learn farming methods, harvesting, and animal husbandry.",
+      "f2": "Farm stays: Stay in simple rural homes and experience daily farm life.",
+      "f3": "Hands-on experiences: Participate in olive picking, grape harvesting, vegetable planting, or rice harvesting.",
+      "f4": "Traditional food: Taste fresh farm-to-table rural dishes.",
+      "f5": "Recreational activities: Horse riding, cycling through fields, rural safaris.",
+      "f6": "Environmental education: Workshops on organic farming, recycling, and water conservation.",
+      "f7": "Local products: Buy natural products like honey, cheese, herbs, olives, and preserves."
+    },
+    "world_heading": "🌍 Agricultural tourism worldwide",
+    "world": {
+      "eu": "Europe: Italy (Agriturismo — farm stays), France (vineyards & cheese regions), Spain (olive/orange farms), Netherlands (flower farms).",
+      "asia": "Asia: India (tea estates like Darjeeling and Assam), Japan (rice & seasonal fruit farming), China (tea & rice villages).",
+      "americas": "Americas: USA (farm trips, pumpkin harvests), Brazil (coffee & cocoa farms), Argentina (vineyards & gaucho experiences).",
+      "africa": "Africa: Morocco (olive & date farms, argan oil), South Africa (vineyards often combined with safaris)."
+    },
+    "egypt_heading": "🌿 Agricultural tourism in Egypt",
+    "egypt": {
+      "p1": "Nile Valley & Delta: Olive, grape and vegetable farms (e.g., Fayoum, Monufia, Kafr El Sheikh).",
+      "p2": "Upper Egypt: Sugarcane and mango farms (Luxor, Aswan).",
+      "p3": "Oases & Siwa: Palm and olive farms and traditional natural products.",
+      "p4": "Sinai: Olive and medicinal/aromatic plants.",
+      "p5": "National projects: Toshka, East El Oweinat — opportunities for educational farm tourism."
+    },
+    "benefits_heading": "🎯 Benefits of agricultural tourism:",
+    "benefits": {
+      "b1": "Economic: Increase income for farmers and rural communities.",
+      "b2": "Social: Strengthen ties between urban and rural populations.",
+      "b3": "Environmental: Preserve natural resources and promote organic farming.",
+      "b4": "Educational: Teach children and youth about food sources and the importance of agriculture."
+    },
+    "summary": "Agricultural tourism worldwide reflects a diversity of farming cultures — from European vineyards to Asian tea and rice farms, and from American coffee and cocoa plantations to African olive and date groves. Egypt has strong potential thanks to its varied resources and the ability to blend historical heritage with rural experiences."
+  },
+  "gradients": {
+    "status":" Status",
+    "date":" Date",
+    "order": "Order",
+    "orders": "Orders",
+    "savechange": "Save changes",
+    "cancel": "Cancel",
+    "profile": "Profile",
+    "mycourses": "My Courses",
+    "open":"Open",
+    "myorders": "My Orders",
+    "refresh":"Refresh"
+  },
+  "auth": {
+    "login": {
+      "title": "Log in",
+      "email": "Email",
+      "password": "Password",
+      "button": "Log in",
+      "cancel": "Cancel",
+      "noAccount": "No account?",
+      "signUp": "Sign up"
+    },
+    "signup": {
+      "title": "Create Account",
+      "fullname": "Full Name",
+      "email": "Email",
+      "password": "Password",
+      "button": "Sign up",
+      "cancel": "Cancel"
+    }
+  }
+}

@@ -1,0 +1,174 @@
+/* ===== Layout ===== */
+.container {
+  max-width: 1200px;
+  margin: auto;
+  padding: 20px;
+}
+
+h1 {
+  margin-bottom: 20px;
+}
+
+/* ===== Grid ===== */
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+  gap: 25px;
+}
+
+/* ===== Card ===== */
+.card {
+  background: #fff;
+  border-radius: 16px;
+  overflow: hidden;
+  cursor: pointer;
+  box-shadow: 0 6px 20px rgba(0,0,0,0.08);
+  transition: all 0.25s ease;
+  display: flex;
+  flex-direction: column;
+}
+
+.card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 12px 30px rgba(0,0,0,0.15);
+}
+
+/* Image */
+.card img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+/* Content */
+.card-body {
+  padding: 15px;
+}
+
+.card h3 {
+  margin: 0 0 10px;
+  font-size: 18px;
+  font-weight: 600;
+  color: #222;
+}
+
+/* Footer */
+.card-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 15px 15px;
+  font-size: 14px;
+  color: #555;
+}
+
+/* ===== Floating Button ===== */
+.fab {
+  position: fixed;
+  bottom: 25px;
+  right: 25px;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background: #007bff;
+  color: white;
+  font-size: 30px;
+  border: none;
+  cursor: pointer;
+  box-shadow: 0 6px 20px rgba(0,0,0,0.2);
+  transition: 0.2s;
+}
+
+.fab:hover {
+  transform: scale(1.1);
+  background: #0056b3;
+}
+
+/* ===== Modal Base ===== */
+.modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0,0,0,0.6);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1000;
+}
+
+.hidden {
+  display: none;
+}
+
+/* ===== Modal Box ===== */
+.modal-content {
+  background: #fff;
+  border-radius: 16px;
+  padding: 20px;
+  width: 90%;
+  max-width: 600px;
+  animation: fadeIn 0.2s ease;
+}
+
+/* Wider modal for article view */
+.article-view {
+  max-width: 800px;
+  max-height: 90vh;
+  overflow-y: auto;
+}
+
+/* ===== Inputs ===== */
+.modal-content input,
+.modal-content textarea {
+  width: 100%;
+  margin-bottom: 12px;
+  padding: 10px;
+  border-radius: 10px;
+  border: 1px solid #ddd;
+  font-size: 14px;
+}
+
+.modal-content textarea {
+  min-height: 150px;
+  resize: vertical;
+}
+
+/* Buttons row */
+.row {
+  display: flex;
+  justify-content: flex-end;
+  gap: 10px;
+}
+
+/* ===== Article View ===== */
+.article-img {
+  width: 100%;
+  height: 280px;
+  object-fit: cover;
+  border-radius: 12px;
+}
+
+.article-view h2 {
+  margin-top: 15px;
+}
+
+.article-text {
+  margin-top: 15px;
+  line-height: 1.7;
+  color: #333;
+  white-space: pre-line;
+}
+
+/* ===== Animation ===== */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: scale(0.95);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}

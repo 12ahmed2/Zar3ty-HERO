@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Zar3ty - Articles</title>
+  <link rel="stylesheet" href="/static/css/index.css">
+  <link rel="stylesheet" href="/static/css/articles.css">
+
+</head>
+<body>
+    <div id="navbar-placeholder"></div>
+
+    <div class="container">
+  <h1>Articles</h1>
+
+  <div id="articles-list" class="grid"></div>
+
+  <button id="btn-add-article" class="fab">+</button>
+</div>
+
+<!-- Modal -->
+<div id="article-modal" class="modal hidden">
+  <div class="modal-content wide">
+    <h2>Write Article</h2>
+
+    <input id="article-title" placeholder="Title" />
+
+    <textarea id="article-content" placeholder="Write your article..."></textarea>
+
+    <input type="file" id="article-image">
+
+    <div class="row">
+      <button id="article-submit" class="btn">Publish</button>
+      <button id="article-close" class="btn ghost">Cancel</button>
+    </div>
+  </div>
+</div>
+
+<!-- VIEW ARTICLE MODAL -->
+<div id="view-article-modal" class="modal hidden">
+  <div class="modal-content article-view">
+    
+    <img id="view-article-image" class="article-img">
+
+    <h2 id="view-article-title"></h2>
+
+    <div id="view-article-content" class="article-text"></div>
+
+    <div class="row">
+      <span id="view-article-stars"></span>
+      <button id="view-close" class="btn ghost">Close</button>
+    </div>
+
+  </div>
+</div>
+  <script src="/static/js/loader.js" defer></script>
+  <script src="/static/js/lang.js"></script>
+  <script src="/static/js/articles.js" type="module" defer></script>
+  <script src="/static/js/navbar.js" defer></script>
+  <script src="/static/js/login_sign.js" defer></script>
+  <script src="/static/js/cart_drawer.js" defer></script>
+  <script src="/static/js/index.js" type="module" defer></script>
+</body>
+</html>

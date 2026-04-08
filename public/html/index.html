@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Zar3ty - Home</title>
+  <link rel="stylesheet" href="/static/css/index.css" />
+</head>
+<body>
+  <!-- Navbar placeholder (rendered by /static/js/navbar.js) -->
+  <div id="navbar-placeholder" class="topbar"></div>
+
+  <main class="container" id="main">
+
+    <section class="landing">
+      <img src="static/static/img/agri-landing.jpg" alt="Landing Image" />
+      <div class="landing-text">
+        <h1 data-translate="index.welcomeMessage"></h1>
+        <p data-translate="index.manager">مدير مزرعتك</p>
+      </div>
+    </section>
+
+    <section class="about-us" id="about-us">
+      <h2 class="section-title" data-translate="index.aboutUsTitle"></h2>
+      <p data-translate="index.aboutUsContent"></p>
+    </section>
+
+    <section class="products-section" id="products">
+      <h1 class="section-title" data-translate="index.productsTitle"></h1>
+      <div class="products-controls">
+        <input type="text" id="products-search" data-translate-placeholder="index.searchPlaceholder" />
+        <button id="products-prev"></button>
+        <button id="products-next"></button>
+        <span id="products-pagination"></span>
+      </div>
+      <div id="grid-products" class="grid"></div>
+    </section>
+  </main>
+
+
+
+  <!-- Toast notifications -->
+  <div id="toast" class="toast" aria-live="polite"></div>
+
+  <!-- Scripts: fp first, navbar next, index last. All deferred to let HTML parse. -->
+  <script src="/static/js/loader.js" defer></script>
+  <script src="/static/js/lang.js"></script>
+  <script src="/static/js/fp.js" defer></script>
+  <script src="/static/js/navbar.js" defer></script>
+  <script src="/static/js/login_sign.js" defer></script>
+  <script src="/static/js/cart_drawer.js" defer></script>
+  <script src="/static/js/index.js" type="module" defer></script>
+</body>
+</html>

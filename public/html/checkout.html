@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Zar3ty - Checkout</title>
+  <link rel="stylesheet" href="/static/css/index.css">
+  <style>
+    .checkout-container { max-width: 800px; margin: 100px auto; padding: 24px; }
+    .checkout-grid { display: grid; grid-template-columns: 1.2fr 0.8fr; gap: 24px; }
+    .checkout-form { background: #fff; padding: 20px; border-radius: 12px; box-shadow: 0 4px 12px rgba(0,0,0,0.05); }
+    .checkout-summary { background: #f8fafc; padding: 20px; border-radius: 12px; position: sticky; top: 100px; }
+    .form-group { margin-bottom: 16px; }
+    .form-group label { display: block; margin-bottom: 6px; font-weight: 600; color: #334155; }
+    .form-group input, .form-group textarea, .form-group select {
+      width: 100%; padding: 10px; border: 1px solid #cbd5e1; border-radius: 8px; font-size: 14px;
+    }
+    /* RTL Support */
+    html[dir="rtl"] .checkout-container { direction: rtl; text-align: right; }
+    html[dir="rtl"] .form-group label { text-align: right; }
+    html[dir="rtl"] .checkout-summary { text-align: right; }
+    @media(max-width: 768px) { .checkout-grid { grid-template-columns: 1fr; } }
+  </style>
+</head>
+<body>
+  <div id="navbar-placeholder"></div>
+  
+  <div class="checkout-container">
+    <h1 data-translate="checkout.title">Secure Checkout</h1>
+    <div class="checkout-grid">
+      <form id="checkout-form" class="checkout-form">
+        <div class="form-group">
+          <label for="chk-name" data-translate="checkout.fullname">Full Name</label>
+          <input id="chk-name" name="fullname" required autocomplete="name">
+        </div>
+        <div class="form-group">
+          <label for="chk-email" data-translate="checkout.email">Email</label>
+          <input id="chk-email" name="email" type="email" required autocomplete="email" readonly>
+        </div>
+        <div class="form-group">
+          <label for="chk-phone" data-translate="checkout.phone">Phone</label>
+          <input id="chk-phone" name="phone" type="tel" required autocomplete="tel" 
+                 data-translate-placeholder="checkout.phonePlaceholder" placeholder="Enter your phone number">
+        </div>
+        <div class="form-group">
+          <label for="chk-address" data-translate="checkout.address">Shipping Address</label>
+          <textarea id="chk-address" name="address" rows="3" required 
+                    data-translate-placeholder="checkout.addressPlaceholder" placeholder="Enter your full address"></textarea>
+        </div>
+        <div class="form-group">
+          <label for="chk-city" data-translate="checkout.city">City</label>
+          <input id="chk-city" name="city" required 
+                 data-translate-placeholder="checkout.cityPlaceholder" placeholder="Enter your city">
+        </div>
+        <div class="form-group">
+          <label for="chk-notes" data-translate="checkout.notes">Order Notes (Optional)</label>
+          <textarea id="chk-notes" name="notes" rows="2" 
+                    data-translate-placeholder="checkout.notesPlaceholder" placeholder="Any special instructions?"></textarea>
+        </div>
+        <button type="submit" class="btn wide" data-translate="checkout.place_order">Place Order</button>
+      </form>
+      <div class="checkout-summary">
+        <h3 data-translate="checkout.your_cart">Your Cart</h3>
+        <div id="checkout-items"></div>
+        <hr style="margin: 16px 0; border: none; border-top: 1px solid #e2e8f0;">
+        <div style="display:flex; justify-content:space-between; font-weight:700; font-size:1.1rem;">
+          <span data-translate="checkout.total">Total</span>
+          <span id="checkout-total">$0.00</span>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Load translation system FIRST -->
+  <script src="/static/js/lang.js"></script>
+  <!-- Then load checkout logic -->
+  <script type="module" src="/static/js/checkout.js"></script>
+</body>
+</html>
