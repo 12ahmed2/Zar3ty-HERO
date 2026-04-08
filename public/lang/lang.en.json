@@ -1,4 +1,6 @@
 {
+"myposts":"Myposts",
+  "myarticles":"Myarticles",
 "checkout": {
   "success": {
     "page_title": "Order Success - Zar3ty",
