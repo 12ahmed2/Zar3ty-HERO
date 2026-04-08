@@ -67,8 +67,8 @@ function setupTabs() {
   const toggle = document.querySelector('.profile-toggle');
   if (toggle && !document.getElementById('btn-show-posts')) {
     toggle.insertAdjacentHTML('beforeend', `
-      <button id="btn-show-posts" class="btn ghost">My Posts</button>
-      <button id="btn-show-articles" class="btn ghost">My Articles</button>
+      <button id="btn-show-posts" class="btn ghost" data-translate="mypost">My Posts</button>
+      <button id="btn-show-articles" class="btn ghost"  data-translate="myarticle">My Articles</button>
     `);
   }
   const wrap = document.querySelector('.profile-wrap');
