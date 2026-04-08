@@ -35,7 +35,8 @@
   "robot": {
     "url_placeholder": "أدخل رابط الكاميرا (مثال: https://...)",
     "show_camera": "عرض الكاميرا",
-    "fullscreen": "ملء الشاشة"
+    "fullscreen": "ملء الشاشة",
+    "robot": "Robot"
   },
     "followers": "المتابعون",
     "following": "يتابع",
