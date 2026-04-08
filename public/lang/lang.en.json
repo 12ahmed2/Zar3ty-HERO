@@ -38,7 +38,8 @@
     "robot": {
     "url_placeholder": "Enter Camera URL (e.g., https://...)",
     "show_camera": "Show Camera",
-    "fullscreen": "Fullscreen"
+    "fullscreen": "Fullscreen"و
+    "robot": "Robot"
   }
   },
   "feed": {
